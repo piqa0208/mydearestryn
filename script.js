@@ -16,7 +16,7 @@ const CONFIG = {
   candles: 5,
   
   song: "",
-  photos: ["img/love.jpg", "img/love.jpg", "img/sample3.svg"]
+  photos: ["img/love.jpg", "img/love.jpg", "img/love1.jpg"]
 };
 // ============================
 
