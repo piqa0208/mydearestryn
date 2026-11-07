@@ -1,15 +1,16 @@
 const CONFIG = {
   name: "Ryn ♡",
   from: "with love, always the Haechan to your Mark ♡",
-  message: "I miss u so much. I miss talking, hugging, laughing and enjoying everything with u.. Other things may have changed now, but I always love u so much.. so glad to have met u and to have u throughout the journey of knowing nct, especially with Mahae ♡",
+  message: "I miss u so much. I miss talking, hugging, laughing and enjoying everything with u.. Other things may have changed now, but I always love u so much.. so glad to have met u in my life and to have u be by my side throughout the journey of knowing nct, especially with Mahae ♡",
   // one wish = one page in the card
   wishes: [
-    "Love u and love u pretty!!!",
+    "Love u and will forever love u pretty!!!",
     "Hope u had the happiest day ever today cause u deserved it!",
-    "I hope I really get to see u soon, ’cause I miss my girl. Missin my baby Ryn real bad..",
+    "I hope I really get to see u soon, ’cause I miss my girl.. missin my baby Ryn real bad..",
     "Thank u for all these years of being the best friend a girl can have..",
-    "All my wishes for u: to alwayssmile and enjoy anything u like in life..",
-    "Stay healthy and take care always."
+    "My only wish for u is to always found a reason to smile and to never stop enjoying the things u love in life..",
+    "Always stay healthy and take good care of urself.",
+    "May Allah bless u with good health, happiness and everything beautiful in life."
   ],
   closing: "Happiest birthday, my dearest Ryn ♡",
   candles: 5,
