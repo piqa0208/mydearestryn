@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Birthday!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+  <div class="rain" id="rain" aria-hidden="true"></div>
+  <button id="music" class="music" type="button" aria-pressed="false">&#9834; Music off</button>
+
+  <main>
+    <section class="hero">
+      <h1>Happy Birthday,<br><span id="name">Bestie</span>!</h1>
+      <p class="sub">Before anything else, make a wish.<br>Then blow out all the candles.</p>
+
+      <div class="cake" id="cake" aria-label="Birthday cake with candles">
+        <div class="candles" id="candles"></div>
+        <div class="layer top"></div>
+        <div class="layer bottom"></div>
+        <div class="plate"></div>
+      </div>
+      <p class="hint" id="hint">Tap each candle to blow it out</p>
+    </section>
+
+    <section class="reveal" id="reveal" hidden>
+      <h2>Wish granted!</h2>
+      <p class="message" id="message"></p>
+      <div class="book" id="book">
+        <div class="stage" id="stage"></div>
+        <div class="nav">
+          <button id="prev" type="button" aria-label="Previous page">&lsaquo;</button>
+          <span id="pageNo" aria-live="polite"></span>
+          <button id="next" type="button" aria-label="Next page">&rsaquo;</button>
+        </div>
+      </div>
+      
+      <button id="again" type="button">Light the candles again</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
